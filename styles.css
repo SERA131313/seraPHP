@@ -1,0 +1,319 @@
+/* Sera CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+font-family: monospace;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    font-size: large;
+    color: #2e2e2e;
+  }
+ 
+  
+  header {
+    background-image: url('Gambar/header.png');
+    background-position: center;
+    color: #323131;
+    padding:20px;
+  
+  }
+  
+  header h1 {
+    float: left;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+
+  .custom-header {
+    font-size: 40px;
+    display: inline-block;
+    background: #c9c9c9;
+    color: #393939;
+    padding: 11px 30px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  #hero {
+    background: #b96d6d;
+    text-align: center;
+    padding: 145px 0;
+    background-image: url('Gambar/BG.png'); 
+    background-color: #ffffff; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #hero h2 {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #cd929f;
+    color: #fff;
+    padding: 13px 20px;
+    border-radius: 40px;
+   
+  }
+  .btnmoreaboutme {
+    display: inline-block;
+    background: #d5bac0;
+    color: #fff;
+    padding: 13px 20px;
+    border-radius: 40px;
+  }
+
+   .btn2 {
+   display: inline-block;
+   background-color: #ccc;
+   color: #323131;
+   padding: 15px 23px;
+   border-radius:30px ;
+   font-size: 30px;
+  }
+   .btn3 {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #323131;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 39px;
+    padding-right: 39px;
+    border-radius:20px ;
+    font-size: x-large;
+   }
+
+   .btn4 {
+    display: inline-block;
+    background-color: #5a5757;
+    color: #fefefe;
+    padding: 30px;
+    border-radius:15px ;
+   } .btn4a {
+    display: inline-block;
+    background-color: #646363;
+    color: #fefefe;
+    padding: 50px;
+    border-radius:20px ;
+    padding-top: 30px;
+   }
+    
+   .btn42 {
+    display: inline-block;
+    background-color: #5f3370;
+    color: #fefefe;
+    padding: 30px;
+    border-radius:15px ;
+   }
+
+   .btn43 {
+    display: inline-block;
+    background-color: #a47088;
+    color: #fefefe;
+    padding: 30px;
+    border-radius:15px ;
+   }    
+   
+   .btn5 {
+    display: inline-block;
+    color: #cd929f;
+    font-size: 65px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+   }
+
+   .btn6 {
+    display: inline-block;
+    background: #e6c5cc;
+    color: #434141;
+    padding: 13px;
+    border-radius: 10px;
+    font-family: monospace;
+    
+  }
+
+  .btn7 {
+    position: left;
+  }
+
+  .btnhome {
+    font-size: 40px;
+  }
+
+  .btnabout {
+    text-align: right;
+  }
+
+
+  #about {
+    background: #dfd9dc;
+    background-image: url(Gambar/BGABOUT.png);
+    background-position: center;
+
+    padding-top: 90px;
+    text-align: center;
+   }
+  
+  #about {
+    color:#323030;
+  }
+
+  #portfolio {
+    background: #f4f4f4;
+    text-align: center;
+    background-image: url('Gambar/BG.png');
+    background-color: #f0f0f0; /* Warna latar belakang jika gambar tidak tersedia atau tidak terlihat */
+    background-size: cover; /* Atur ukuran gambar agar menutupi seluruh area */
+    background-repeat: no-repeat; /* Atur agar gambar tidak diulang */
+    padding: 75px;
+  
+  
+  }
+  .portfolio-item {
+    display: inline-block;
+    margin: 20px;
+  }
+ 
+  
+  .portfolio-item img {
+    width: 145px;
+    height: 140px;
+    border-radius: 2%;
+  }
+
+  .portfolio-item2 {
+    width: 300px;
+    height:300px;
+    border-radius: 3%;
+  }
+   
+
+  .foto {
+    float: left; /* Membuat gambar berada di sebelah kiri */
+    margin-right: 10px; /* Memberikan jarak antara gambar dan teks */
+  }
+  .textkanan {
+    float: right;
+    margin-right: 10px; 
+  }
+  .textkiri {
+    float: left;
+    margin-right: 10px; 
+  }
+
+.image-container {
+  display: inline-block; /* Atau sesuaikan dengan tata letak Anda */
+}
+
+.rotating-image {
+  animation: rotate 7s linear infinite; /* Menggunakan animasi rotate */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Mulai dari sudut rotasi 0 derajat */
+  }
+  to {
+    transform: rotate(360deg); /* Rotasi penuh (360 derajat) */
+  }
+ }
+
+  #article {
+    background: #efdee3;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+
+ .article {
+    text-align: left;
+    
+    }
+ 
+ #contact {
+    background: #efdee3;
+    background-image: url(Gambar/about.png);
+    background-position: center;
+    text-align: left;
+    padding-top: 140px;
+    padding-bottom: 140px;
+
+  }
+  
+  form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: -10px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 20%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button[type="submit"] {
+    font-family: monospace;
+    font-size: large;
+    background: #fffefe;
+    color: #323030;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30pxpx;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #848484;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .container2 {
+    background: #3f3c3c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+ 
